@@ -5,5 +5,6 @@ elements["helium"] = 3
 # print("carbon" in elements)
 print(elements.get("dilithium", "There\'s no such element"))
 n = elements.get("dilithium")
+print(n)
 print(n is None)
 print(n is not None)
